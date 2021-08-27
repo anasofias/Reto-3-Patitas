@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icono.png" type="image/png">
+    <title>Patitas</title>
+</head>
+<body>
+   <header>
+       <div class="contenedor"> 
+           <h1 class="icon-paw">Patitas</h1>
+           <input type="checkbox" id="nav-bar">
+           <label class="icon-menu" for="nav-bar"></label>
+           <nav class="menu">
+               <ul class="lista-menu">
+                   <li> <a href="#"> Inicio</a> </li>
+                   <li> <a href="#"> Mascotas</a> </li>
+                   <li> <a href="#"> Contantos</a> </li>
+                   <li> <a href="#"> Blog</a> </li>
+               </ul>
+           </nav>
+       </div>
+   </header>
+   <main>
+       <section id="banner">
+           <img src="img/pexels-photo-745045.jpeg" alt="banner">
+           <div class="contenedor">
+               <h2>Patitas</h2>
+               <p>Deja una huella en tu corazón</p>
+               <a href="#">Leer más</a>
+           </div>
+       </section>
+       <section id="bienvenidos">
+        <h2>BIENVENIDO A NUESTRO REFUGIO</h2>
+        <p class="descripcion">Hemos cambiado su mundo y ellos el nuestro. Muchos han sido felizmente adoptados, otros nos han enseñado a no darnos por vencidos y son ejemplo de perseverancia y gratitud. Algunos ya no nos acompañan, pero nos queda la sensación de haberles permitido conocer la bondad humana. Y están los que habitan el refugio y que siguen esperando una oportunidad para tener una familia y llenar sus hogares de alegría y amor.
+
+            Puede que no salvemos millones de animales de la calle que existen, pero ayudaremos a los que estén a nuestro alcance, a los que el universo nos coloque en el camino.</p>
+       </section>
+
+
+
+    </div>
+
+       <section id="blog">
+           <h3>Temas en nuestro refugio</h3>
+           <div class="contenedor"> 
+                <article>
+                    <img src="img/iguana.jpeg" alt="">
+                    <h4>Como cuidar a tu mascota</h4>
+                </article>
+                <article>
+                    <img src="img/perro.png" alt="">
+                    <h4>Adopta tu mascota ideal</h4>
+                </article>
+                <article>
+                    <img src="img/chihuahua.png" alt="">
+                    <h4>Mi mascota, la más graciosa</h4>
+                </article>
+           </div>
+
+           <div class="contenedora">
+       
+            <div class="mision">
+                <h3>Nuestra misión</h3>
+                <p>Los animales que llegan a Patitas reciben atención veterinaria completa, incluyendo esterilización, vacunación, desparacitación, identificación con microchip y cualquier tratamiento necesario para garantizar su bienestar hasta que logremos encontrarles un hogar que los cuide de por vida.</p>
+                <a href="#">Historias</a>
+            </div>
+    
+            <div class="vision">
+               <h3>Nuestra visión</h3>
+               <p>Promover la sensibilización colectiva fomentando la esterilización, el respeto a la vida, el NO al maltrato animal y la adopción responsable y soñamos con convertirnos en una organización líder en la protección y preservación de los animales que son víctimas del maltrato y la indiferencia.</p>
+               <a href="#">Apoyanos</a>
+    
+    
+            </div>
+          
+       </section>
+
+        <section id="info">
+            <h3>Conoce a nuestros huéspedes en busca de un hogar amoroso</h3>
+            <div class="contenedor">
+                <div class="info-pet">
+                    <img src="img/docker.png" alt="">
+                    <h4>Docker</h4>
+                </div>
+                <div class="info-pet">
+                    <img src="img/luluylili.png" alt="">
+                    <h4>Lulu y Lili</h4>
+                </div>
+                <div class="info-pet">
+                    <img src="img/lorenzo.png" alt="">
+                    <h4>Lorenzo</h4>
+                </div>
+                <div class="info-pet">
+                    <img src="img/mrbread.png" alt="">
+                    <h4>Mr bread</h4>
+                </div>
+            </div>
+
+        </section>       
+   </main>
+   <footer>
+       <div class="contenedor">
+           <p class="copy"> Patitas &copy; 2021</p>
+           <div class="sociales">
+               <a class="icon-facebook" href="#"></a>
+               <a class="icon-twitter" href="#"></a>
+               <a class="icon-instagram" href="#"></a>
+               <a class="icon-pinterest" href="#"></a>
+
+           </div>
+       </div>
+   </footer>
+</body>
+</html>
